@@ -5105,10 +5105,6 @@ textarea.form-control-lg {
   top: 0;
   z-index: 1020; }
 
-.tonerwgt {
-  position: static;
-}
-
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: sticky;
@@ -15670,11 +15666,11 @@ ul[class*="list-"].fs18 {
 
   .tonerlist {
     display: flex;
-    gap: 1%;
+    justify-content: space-between;
   }
 
   .tonerstages {
-    width: 18%;
+    width: 12%;
   }
 
   @media (max-width: 640px) {
