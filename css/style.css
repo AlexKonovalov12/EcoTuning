@@ -5105,6 +5105,10 @@ textarea.form-control-lg {
   top: 0;
   z-index: 1020; }
 
+.tonerwgt {
+  position: static;
+}
+
 @media (min-width: 576px) {
   .sticky-sm-top {
     position: sticky;
@@ -15663,3 +15667,21 @@ ul[class*="list-"].fs18 {
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: 20px; }
+
+  .tonerlist {
+    display: flex;
+    gap: 1%;
+  }
+
+  .tonerstages {
+    width: 18%;
+  }
+
+  @media (max-width: 640px) {
+    .tonerlist {
+      flex-wrap: wrap;
+    }
+    .tonerstages {
+      width: 49%;
+    }
+  }
