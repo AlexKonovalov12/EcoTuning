@@ -15676,8 +15676,11 @@ ul[class*="list-"].fs18 {
   @media (max-width: 640px) {
     .tonerlist {
       flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1%;
     }
     .tonerstages {
       width: 49%;
+      margin-bottom: 1%;
     }
   }
