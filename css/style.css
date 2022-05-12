@@ -15664,7 +15664,7 @@ ul[class*="list-"].fs18 {
   padding-bottom: 0;
   margin-bottom: 20px; }
 
-  .tonerlist {
+  .tonerlist, .servicelist {
     display: flex;
     justify-content: space-between;
   }
@@ -15673,13 +15673,18 @@ ul[class*="list-"].fs18 {
     width: 12%;
   }
 
+  .servicestages {
+    width: 15%;
+    max-width: 180px;
+  }
+
   @media (max-width: 640px) {
-    .tonerlist {
+    .tonerlist, .servicelist {
       flex-wrap: wrap;
       justify-content: flex-start;
       gap: 1%;
     }
-    .tonerstages {
+    .tonerstages, .servicestages {
       width: 49%;
       margin-bottom: 1%;
     }
