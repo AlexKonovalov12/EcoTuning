@@ -15667,6 +15667,11 @@ ul[class*="list-"].fs18 {
   .tonerlist, .servicelist {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .tonerprice {
+    text-align: center;
   }
 
   .tonerstages {
