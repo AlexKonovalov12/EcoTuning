@@ -15694,3 +15694,42 @@ ul[class*="list-"].fs18 {
       margin-bottom: 1%;
     }
   }
+
+  .price_tab {
+    width: 100%;
+    box-shadow: 7px 7px 10px,
+    -7px 7px 10px;
+  }
+
+  .tuning_price_box {
+    display: flex;
+  }
+
+  .tuning_price_info {
+    width: 80%;
+    height: 50px;
+    background-color: #171a1e;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    padding: 10px 15px;
+    
+  }
+
+  .tuning_price {
+    width: 20%;
+    height: 50px;
+    background-color: #171a1e;
+    border: 2px solid black;
+    border-bottom: 0;
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  .tuning_inform {
+   color: white;
+   font-weight: 800;
+   font-family: "Roboto Condensed", sans-serif;
+   letter-spacing: 0.4em;
+   text-transform: uppercase;
+  }
