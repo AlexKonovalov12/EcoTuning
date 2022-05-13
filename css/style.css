@@ -15701,6 +15701,7 @@ ul[class*="list-"].fs18 {
     width: 100%;
     box-shadow: 7px 7px 10px,
     -7px 7px 10px;
+    margin-bottom: 50px;
   }
 
   .tuning_price_box {
@@ -15778,4 +15779,29 @@ ul[class*="list-"].fs18 {
 
   .portfolio_photo {
     min-height: 287px;
+  }
+
+  .photo_container {
+    display: flex;
+    width: 100%;
+    column-gap: 2%;
+  }
+
+  .photo_box {
+    width: 50%;
+    max-height: 430px;
+    box-shadow: 7px 7px 10px,
+        -7px 7px 10px;
+  }
+
+  @media (max-width: 580px) {
+   .photo_box {
+     width: 100%;
+    margin-bottom: 5px;
+    }
+
+    .photo_container {
+      flex-wrap: wrap;
+      
+    }
   }
