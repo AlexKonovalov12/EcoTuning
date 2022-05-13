@@ -15774,5 +15774,8 @@ ul[class*="list-"].fs18 {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 26px;
+  }
 
+  .portfolio_photo {
+    min-height: 287px;
   }
