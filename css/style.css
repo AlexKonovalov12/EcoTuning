@@ -15751,7 +15751,6 @@ ul[class*="list-"].fs18 {
 
   @media (max-width: 500px) {
     .tuning_price {
-      
       font-size: 12px;
     }
   
@@ -15760,7 +15759,17 @@ ul[class*="list-"].fs18 {
     }
 
     .mb-30 {
-      order: -1; }
+      order: -1; 
+    }
   }
 
-  
+  .email {
+    padding: 10px 0px 10px 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+
+  }
