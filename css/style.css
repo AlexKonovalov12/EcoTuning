@@ -14135,8 +14135,11 @@ blockquote {
       padding: 15px 15px 5px 15px; }
   .rs-nav .is-fixed .menu-links .nav {
     height: auto; }
-  .rs-nav .social-media {
+  .rs-nav {
     margin-top: auto;
+    padding: 30px 0; }
+  .social-media {
+    margin-top: 100px;
     padding: 30px 0; }
   .navbar-nav {
     height: auto; }
