@@ -15749,4 +15749,15 @@ ul[class*="list-"].fs18 {
     }
   }
 
+  @media (max-width: 500px) {
+    .tuning_price {
+      
+      font-size: 12px;
+    }
+  
+    .tuning_inform {
+     font-size: 12px;
+    }
+  }
+
   
